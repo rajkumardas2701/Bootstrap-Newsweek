@@ -1,0 +1,36 @@
+.wrapper {
+  margin: 0 auto;
+  padding: 0;
+  width: 70%;
+}
+
+.navbar-height {
+  height: 90px;
+}
+
+.bg-red {
+  background-color: #F72210;
+}
+
+.head_img {
+  width: 22px;
+  height: 22px;
+}
+
+.head_img1 {
+  width: 12px;
+  height: 12px;
+}
+
+.pad-bot {
+  padding-top: 10px;
+}
+
+.text-font {
+  font-size: 14px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.pad {
+  padding: 20px;
+}
