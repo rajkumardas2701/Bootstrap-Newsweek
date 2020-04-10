@@ -1,11 +1,17 @@
+body {
+  background-color: #F4F5F6;
+}
+
 .wrapper {
   margin: 0 auto;
   padding: 0;
-  width: 70%;
+  width: 1200px;
+  background-color: white;
 }
 
 .navbar-height {
   height: 90px;
+  align-content: center;
 }
 
 .bg-red {
@@ -33,4 +39,83 @@
 
 .pad {
   padding: 20px;
+}
+
+.logo {
+  height: 80px;
+}
+
+.navBtn {
+  background-color: white;
+  border: 0;
+  height: 25px;
+  margin-left: 10px;
+  color: red;
+}
+
+.navbar-right {
+  margin: 0 10px 10px 0;
+}
+
+.arrowColor {
+  color: red;
+}
+
+.belowHead {
+  margin-top: 90px;
+  border-bottom: 1px solid rgb(219, 217, 217);
+}
+
+.navigation {
+  width: 95%;
+  height: 50px;
+}
+
+.navigation::before {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 90px;
+  background-color: red;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+  width: 5%;
+}
+
+.navigation a {
+  color: black;
+  font-size: 1.1em;
+}
+
+.navigation a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.form-control {
+  width: 100px;
+  border: 0;
+  font-size: 1em;
+}
+
+.head_img2 {
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  border: 0;
+}
+
+.belowHead input {
+  font: 1em;
+  padding-right: 0;
+}
+
+.belowHead button {
+  border: 0;
+  background-color: white;
+}
+
+main {
+  width: 90%;
 }
