@@ -170,5 +170,24 @@ main aside h6 {
   padding-left: 0;
 }
 
+.aboutAuthor {
+  margin: 0 10px;
+  line-height: 0.9em;
+}
 
+.aboutAuthor a h6 {
+  color: black;
+  font-size: 0.95em;
+}
+
+.aboutAuthor a:hover,
+.aboutAuthor a h6:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.aboutAuthor p {
+  font-size: 0.8em;
+  color: #515250;
+}
 
