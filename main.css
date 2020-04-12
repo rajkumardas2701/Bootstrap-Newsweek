@@ -342,3 +342,118 @@ button {
 .centerSec {
   position: relative;
 }
+
+.maincontent {
+  margin-bottom: 20px;
+}
+
+.features {
+  position: relative;
+}
+
+.features img {
+  width: 100%;
+}
+
+.features .imgTitle {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: red;
+  background-color: #F7F6F2;
+  opacity: 80%;
+}
+
+.imgTitle1 {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px 10px;
+}
+
+/* .features .imgTitle:hover {
+  color: black;
+} */
+
+.bgFeature {
+  background-color: #F4F5F6;
+  color: black;
+  height: 40px;
+  align-items: center;
+  font-size: 1em;
+}
+
+.bgFeature p {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.bgFeature:hover {
+  background-color: rgb(218, 214, 214);
+  text-decoration: none;
+  color: black;
+}
+
+.row {
+  margin: 10px 20px;
+  border-top: 1px solid rgb(206, 207, 207);
+  padding: 10px 0;
+}
+
+.magazineSection .row:last-child {
+  border-top: 0;
+}
+
+.magazineSection .row:last-child .featureClip  {
+  height: 70%;
+  object-fit: cover;
+  border-top: 0;
+  margin-top: 0;
+}
+
+.magazineSection div h5 {
+  letter-spacing: -1;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+.featureClip {
+  height: 70%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.AbtFeat {
+  margin-top: 10px;
+}
+
+.AbtFeat span {
+  margin-left: 10px;
+  color: red;
+}
+
+.article a h6 {
+  padding-top: 20px;
+}
+
+.AbtFeat P {
+  margin-bottom: 0;
+}
+
+.magDesc {
+  line-height: -1 !important;
+  font-size: 1.1em;
+}
+
+.lastImg {
+  height: 250px;
+  object-fit: cover;
+}
+
+.editorPick {
+  margin-top: 30px;
+}
