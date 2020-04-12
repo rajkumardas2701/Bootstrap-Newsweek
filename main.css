@@ -63,6 +63,7 @@ body {
 }
 
 .belowHead {
+  position: relative;
   margin-top: 90px;
   border-bottom: 1px solid rgb(219, 217, 217);
 }
@@ -77,11 +78,11 @@ body {
   content: "";
   position: absolute;
   right: 0;
-  top: 90px;
+  top: 0;
   background-color: red;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
-  width: 5%;
+  width: 6%;
 }
 
 .navigation a {
@@ -191,3 +192,81 @@ main aside h6 {
   color: #515250;
 }
 
+.debate {
+  margin-top: 20px;
+}
+
+.deb_auth {
+  padding-bottom: 15px;
+  border-bottom: 4px double rgb(206, 207, 207);
+}
+
+.deb_auth a img {
+  width: 97px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.deb_auth a h6 {
+  color: black;
+  vertical-align: middle;
+  margin: 10px 0 10px 10px;
+}
+
+.container-fluid {
+  padding-right: 0;
+}
+
+.aside {
+  padding-right: 10px;
+}
+
+.debate-box1 {
+  border-top: 4px solid red;
+  position: relative;
+}
+
+.debate-box1:last-child {
+  border-top: 4px solid blue;
+  position: relative;
+}
+
+.opinion section {
+  border-bottom: 1px solid rgb(206, 207, 207);
+  margin-top: 10px;
+}
+
+.opinion section:last-child {
+  border-bottom: 0;
+}
+
+.opinion section:first-child {
+  margin-top: 0;
+}
+
+.debate-box1 p {
+  margin-top: 10px;
+  font-size: 0.9em;
+  letter-spacing: -1px;
+}
+
+.debate-box1 .deb_img1 {
+  width: 60px;
+  height: 60px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.vs {
+  color: white;
+  border: 2px solid black;
+  width: 40px;
+  height: 40px;
+  padding-top: 5px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 20px auto;
+  text-align: center;
+}
