@@ -190,6 +190,12 @@ main aside h6 {
 .aboutAuthor p {
   font-size: 0.8em;
   color: #515250;
+  line-height: normal;
+}
+
+.cnt article .aboutAuthor p {
+  font-size: 1em;
+  color: #515250;
 }
 
 .debate {
@@ -219,6 +225,7 @@ main aside h6 {
 
 .aside {
   padding-right: 10px;
+  position: relative;
 }
 
 .debate-box1 {
@@ -272,7 +279,7 @@ main aside h6 {
 }
 
 .latestNews {
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .latestNews .opinion {
@@ -282,4 +289,56 @@ main aside h6 {
 
 .latestNews .opinion:last-child {
   border-bottom: 0;
+}
+
+.card .sponTitle {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: rgba(72, 126, 252, 0.917);
+  background-color: #F7F6F2;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.sponHead {
+  color: black;
+  font-size: 1.2em;
+}
+
+article .border {
+  border-color: rgb(206, 207, 207);
+}
+
+.spon {
+  margin-bottom: 30px;
+}
+
+.newsIcon {
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+  background-color: red;
+  margin-right: 10px;
+  align-self: center;
+}
+
+button {
+  display: flex;
+  margin: 10px 0;
+}
+
+.cnt {
+  /* margin-top: 10px; */
+  padding-top: 10px;
+  border-top: 1px solid rgb(206, 207, 207);
+}
+
+.centerSec {
+  position: relative;
 }
