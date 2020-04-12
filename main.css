@@ -415,6 +415,13 @@ button {
   margin-top: 0;
 }
 
+.editorPick .row:last-child {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+  border-bottom: 1px solid rgb(206, 207, 207);
+}
+
 .magazineSection div h5 {
   letter-spacing: -1;
   font-size: 1.2em;
@@ -456,4 +463,39 @@ button {
 
 .editorPick {
   margin-top: 30px;
+}
+
+.lastFont {
+  font-size: 1.2em;
+}
+
+.us {
+  padding: 10px 20px;
+}
+
+.us h5 {
+  color: red;
+}
+
+.us .row {
+  margin: 10px 0;
+  border-top: 0;
+  border-bottom: 1px solid rgb(206, 207, 207);
+}
+
+.us article {
+  padding-left: 0;
+}
+
+.uslatest {
+  border-bottom: 1px solid rgb(206, 207, 207);
+  padding: 10px 0;
+}
+
+.uslatest:first-child {
+  padding-top: 0;
+}
+
+.uslatest:last-child {
+  border-bottom: 0;
 }
