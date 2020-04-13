@@ -487,6 +487,23 @@ button {
   padding-left: 0;
 }
 
+.sports {
+  padding: 10px 20px;
+}
+
+.sports h5 {
+  color: red;
+}
+
+.sports .row {
+  margin: 10px 0;
+  border-top: 0;
+}
+
+.sports article {
+  padding-left: 0;
+}
+
 .uslatest {
   border-bottom: 1px solid rgb(206, 207, 207);
   padding: 10px 0;
@@ -498,4 +515,34 @@ button {
 
 .uslatest:last-child {
   border-bottom: 0;
+}
+
+.subs .row {
+  border-top: 0;
+}
+
+.subs .row article {
+  padding: 0;
+}
+
+.position-absolute {
+  top: 40px;
+  left: 100px;
+}
+
+.newsletter img {
+  width: 100%;
+  height: 300px ;
+  object-fit: cover;
+}
+
+footer div a svg {
+  width: 20%;
+  fill: red;
+}
+
+footer div span {
+  font-size: 12px;
+  line-height: 12px;
+  color: #666;
 }
