@@ -1,11 +1,11 @@
-body {
-  background-color: #F4F5F6;
+* {
+  box-sizing: border-box;
 }
 
 .wrapper {
   margin: 0 auto;
   padding: 0;
-  width: 1300px;
+  max-width: 1300px;
   background-color: white;
 }
 
@@ -26,6 +26,7 @@ body {
 .head_img1 {
   width: 12px;
   height: 12px;
+  fill: red;
 }
 
 .pad-bot {
@@ -37,29 +38,26 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.pad {
-  padding: 20px;
-}
-
-.logo {
-  height: 80px;
-  padding: 6px 0;
+header a svg {
+  width: 40vh;
+  height: auto;
+  fill: white;
 }
 
 .navBtn {
   background-color: white;
   border: 0;
+  width: 120px;
   height: 25px;
   margin-left: 10px;
   color: red;
 }
 
-.navbar-right {
-  margin: 0 10px 10px 0;
-}
-
-.arrowColor {
-  color: red;
+.navBtn svg {
+  width: 100%;
+  height: 15px;
+  fill: red;
+  align-self: center;
 }
 
 .belowHead {
@@ -68,9 +66,24 @@ body {
   border-bottom: 1px solid rgb(219, 217, 217);
 }
 
+.input-group-append {
+  position: absolute;
+  width: 6%;
+  right: 7%;
+}
+
+.input-group-append button {
+  width: 20%;
+}
+
+.belowHead div a {
+  font-size: 1.1em;
+}
+
 .navigation {
-  width: 95%;
-  height: 50px;
+  width: 100%;
+  padding-right: 14%;
+  height: 40px;
 }
 
 .navigation::before {
@@ -96,15 +109,13 @@ body {
 }
 
 .form-control {
-  width: 100px;
-  border: 0;
   font-size: 1em;
 }
 
 .head_img2 {
   padding: 0;
   width: 20px;
-  height: 20px;
+  height: auto;
   border: 0;
 }
 
@@ -116,11 +127,6 @@ body {
 .belowHead button {
   border: 0;
   background-color: white;
-}
-
-main {
-  padding-top: 20px;
-  width: 90%;
 }
 
 .container-fluid {
@@ -343,9 +349,9 @@ button {
   position: relative;
 }
 
-.maincontent {
+/* .maincontent {
   margin-bottom: 20px;
-}
+} */
 
 .features {
   position: relative;
@@ -566,5 +572,9 @@ ul li a {
 
 ul li a:hover {
   color: rgb(75, 74, 74);
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: none;
 }
