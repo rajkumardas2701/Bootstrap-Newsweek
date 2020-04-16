@@ -346,9 +346,9 @@ button {
   border-top: 1px solid rgb(206, 207, 207);
 }
 
-.centerSec {
+/* .centerSec {
   position: relative;
-}
+} */
 
 /* .maincontent {
   margin-bottom: 20px;
@@ -633,7 +633,7 @@ a:hover {
 
 /* Media queries for medium screen */
 
-@media screen and (max-width: 991px) and (min-width: 575px) {
+@media screen and (max-width: 991px) and (min-width: 768px) {
   .spon {
     width: 320px;
     height: auto;
