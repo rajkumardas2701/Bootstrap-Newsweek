@@ -553,6 +553,11 @@ button {
   border-top: 0;
 }
 
+/* .subsdesc {
+  width: 60%;
+  align-content: space-between;
+} */
+
 .subs .row article {
   padding: 0;
 }
@@ -643,5 +648,18 @@ a:hover {
   .featureClip {
     height: 55%;
     object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .newsletter img {
+    width: 100%;
+    height: 150px ;
+    object-fit: cover;
+  }
+
+  .position-absolute {
+    top: 40px;
+    left: 300px;
   }
 }
