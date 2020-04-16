@@ -70,6 +70,7 @@ header a svg {
   position: absolute;
   width: 6%;
   right: 7%;
+  top: 0;
 }
 
 .input-group-append button {
@@ -81,8 +82,8 @@ header a svg {
 }
 
 .navigation {
-  width: 100%;
-  padding-right: 14%;
+  width: 86%;
+  /* padding-right: 14%; */
   height: 40px;
 }
 
@@ -434,10 +435,14 @@ button {
   vertical-align: middle;
 }
 
+/* .magazineSection .row article a {
+  letter-spacing: -1;
+  line-height: -1em;
+} */
+
 .featureClip {
   height: 70%;
   object-fit: cover;
-  margin-top: 20px;
 }
 
 .AbtFeat {
@@ -458,8 +463,9 @@ button {
 }
 
 .magDesc {
-  line-height: -1 !important;
-  font-size: 1.1em;
+  line-height: 20px !important;
+  font-size: 20px;
+  letter-spacing: -1;
 }
 
 .lastImg {
@@ -493,6 +499,16 @@ button {
   padding-left: 0;
 }
 
+.us article a img {
+  width: 100%;
+  height: auto;
+}
+
+.us article div article a img {
+  width: auto;
+  height: auto;
+}
+
 .sports {
   padding: 10px 20px;
 }
@@ -508,6 +524,16 @@ button {
 
 .sports article {
   padding-left: 0;
+}
+
+.sports article a img {
+  width: 100%;
+  height: auto;
+}
+
+.sports article div article a img {
+  width: auto;
+  height: auto;
 }
 
 .uslatest {
@@ -577,4 +603,45 @@ ul li a:hover {
 
 a:hover {
   text-decoration: none;
+}
+
+.fa-bars {
+  font-size: 1.5em;
+}
+
+
+/* Media queries for lower than large screen */
+
+@media screen and (max-width: 991px) and (min-width: 0) {
+  
+  .navigation::before {
+    display: none;
+  }
+
+  header a svg {
+    width: 15vh;
+    height: auto;
+    fill: white;
+  }
+
+  .navbar-height {
+    height: 50px;
+    align-content: center;
+  }
+}
+
+
+/* Media queries for medium screen */
+
+@media screen and (max-width: 991px) and (min-width: 575px) {
+  .spon {
+    width: 320px;
+    height: auto;
+    align-self: center;
+  }
+
+  .featureClip {
+    height: 55%;
+    object-fit: cover;
+  }
 }

@@ -14,15 +14,16 @@
 <body class="bg-light">
     <header
         class="navbar fixed-top d-flex flex-row bg-red wrapper navbar-height justify-content-between navbar-expand-sm navbar-expand-md navbar-expand-lg">
-        <div class="d-flex flex-column justify-content-around p-2 ml-3">
+        <div
+            class="d-flex flex-column justify-content-around p-2 ml-3 order-md-1 order-sm-1 order-lg-0 pr-md-5 pr-sm-5">
             <a href="#" class="font-weight-bold text-white text-font pb-1"><img class="head_img"
                     src="https://g.newsweek.com/img/weather/30.webp" alt=""> 33°
                 <span class="font-weight-bold text-white">Bangalore, IN&nbsp;</span>
                 <img class="head_img1" src="https://g.newsweek.com/www/images/icon-arrow-right.svg" alt="arrow">
             </a>
-            <p class="text-white mb-0 pt-1">Thu, Apr 09, 2020</p>
+            <p class="text-white mb-0 pt-1 d-sm-none d-md-none d-lg-block">Thu, Apr 09, 2020</p>
         </div>
-        <a href="https://www.newsweek.com">
+        <a href="https://www.newsweek.com" class="order-md-0 pl-md-2 pl-sm-2 order-sm-0 order-lg-1">
             <svg version=" 1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" xml:space="preserve">
                 <g>
@@ -33,7 +34,7 @@
             </svg>
         </a>
 
-        <a href="#" class="d-flex flex-row align-self-end mr-3">
+        <a href="#" class="d-flex flex-row align-self-end mr-3 order-md-2 order-lg-2 order-sm-2">
             <p class="text-uppercase text-white font-weight-bold align-self-center mb-0">sign in</p>
             <button class="text-uppercase navBtn text-danger font-weight-bold">subscribe
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
@@ -53,12 +54,13 @@
                         </g>
                     </g>
                 </svg></button>
+            <i class="fas fa-bars d-block d-lg-none d-md-block d-sm-block align-self-center ml-3 text-white"></i>
         </a>
 
 
     </header>
     <nav
-        class="wrapper belowHead d-flex flex-row justify-content-between navbar navbar-expand-sm navbar-expand-md navbar-expand-lg">
+        class="wrapper belowHead d-inline-block d-lg-block d-sm-none d-md-none justify-content-between navbar navbar-expand-sm navbar-expand-md navbar-expand-lg">
         <ul class="d-flex flex-row navigation mb-0 pl-2 align-items-center justify-content-around">
 
             <li class="font-weight-bold text-uppercase text-center border-right list-unstyled flex-grow-1"><a
@@ -121,13 +123,13 @@
                     src="https://g.newsweek.com/www/images/icon-search-glass.svg"></button>
         </div>
     </nav>
-    <main class="wrapper d-flex flex-column pt-1">
+    <main class="wrapper d-flex flex-column pt-1 mt-md-5 mt-sm-5 mt-lg-0">
         <!-- d-flex flex-row -->
-        <div class="d-flex row pt-0 mt-0 border-0 mb-2">
+        <div class="d-flex row pt-0 mt-0 ml-1 mr-1 border-0 mb-2">
 
             <div class="col-lg-9 col-md-12 container-fluid d-flex flex-row">
 
-                <section class="d-flex flex-column col-lg-4 col-md-6">
+                <section class="d-flex flex-column col-lg-4 col-md-6 pl-0 pr-0">
                     <h6 class="text-uppercase">featured stories</h6>
                     <article>
                         <div class="card">
@@ -639,12 +641,12 @@
 
                 </section>
             </div>
-            <aside class="col-lg-3 col-md-12 container-fluid d-flex flex-column aside sticky-top">
-                <a href="#" class="text-decoration-none">
+            <aside class="col-lg-3 col-md-12 container-fluid d-flex flex-column aside sticky-top pl-0 pl-md-2 pl-sm-2">
+                <a href="#" class="text-decoration-none pb-md-2 pb-sm-2">
                     <h6 class="text-uppercase">opinion</h6>
                 </a>
-                <div class="d-flex flex-column opinion">
-                    <section class="d-flex flex-row">
+                <div class="d-flex flex-column opinion mb-2">
+                    <section class="d-flex flex-row pb-lg-0 pb-md-2 pb-sm-2">
                         <a href="#">
                             <img src="https://d.newsweek.com/en/full/109587/fred-guttenberg.webp?w=63&h=63&f=a99ccb96daeaf39fdc9f392003761454"
                                 alt="opinionImg">
@@ -657,7 +659,7 @@
                             <p class="text-uppercase font-weight-bold">BY FRED GUTTENBERG</p>
                         </div>
                     </section>
-                    <section class="d-flex flex-row">
+                    <section class="d-flex flex-row pb-lg-0 pb-md-2 pb-sm-2">
                         <a href="#">
                             <img src="https://d.newsweek.com/en/full/1506965/charlie-kirk.webp?w=63&h=63&f=dadcbab6cd325ee70d1bfe4df5a01410"
                                 alt="opinionImg">
@@ -670,7 +672,7 @@
                             <p class="text-uppercase font-weight-bold">BY CHARLIE KIRK</p>
                         </div>
                     </section>
-                    <section class="d-flex flex-row">
+                    <section class="d-flex flex-row pb-lg-0 pb-md-2 pb-sm-2">
                         <a href="#">
                             <img src="https://d.newsweek.com/en/full/1580506/max-simkoff.webp?w=63&h=63&f=3fbb292ec4f983ae0e9d5325d4c45a94"
                                 alt="opinionImg">
@@ -683,7 +685,7 @@
                             <p class="text-uppercase font-weight-bold">BY MAX SIMKOFF</p>
                         </div>
                     </section>
-                    <section class="d-flex flex-row">
+                    <section class="d-flex flex-row pb-lg-0 pb-md-2 pb-sm-2">
                         <a href="#">
                             <img src="https://d.newsweek.com/en/full/1579516/beatrix-hoffman.webp?w=63&h=63&f=8d99ed4d0040e71e525a286660493a36"
                                 alt="opinionImg">
@@ -829,9 +831,9 @@
                 <!-- latest news end here -->
 
                 <!-- sponsor -->
-                <article>
+                <article class="spon">
                     <div class="card">
-                        <p class="text-uppercase sponTitle">SPONSORED INSIGHT</p>
+                        <p class=" text-uppercase sponTitle">SPONSORED INSIGHT</p>
                         <a href="#">
                             <img class="card-img-top featuredImg"
                                 src="https://d.newsweek.com/en/full/1575945/cybersecurity-vantage-hp-sponsor.jpg?w=500&h=333&f=ac517642217c0d9cec695be60008ce2a"
@@ -849,7 +851,7 @@
                     </div>
                 </article>
                 <!-- sponsor -->
-                <div class="sticky-top">
+                <div class="sticky-top spon">
                     <article class="card p-3 m-3 bg-light">
                         <div class="d-flex flex-row">
                             <img class="newsIcon" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="newsIcon">
@@ -911,13 +913,13 @@
 
         <!-- Magazine -->
 
-        <section class="wrapper magazineSection">
+        <section class="wrapper magazineSection d-lg-block d-md-block pb-md-5 mb-md-3">
             <div class="d-flex flex-row justify-content-center align-items-center">
                 <img class="newsIcon" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="newsIcon">
                 <h5 class="text-uppercase font-weight-bolder">in the magazine</h5>
             </div>
             <div class="row">
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-3 mt-lg-1 mt-md-4">
                     <div class="features">
                         <img src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.webp?w=290&h=387&q=90&f=68803bc5f58747c010919715f0fe09de"
                             alt="features">
@@ -929,7 +931,7 @@
                             alt="rightArrow">
                     </a>
                 </article>
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-3 mt-lg-4 mt-md-1">
                     <img class="w-100 featureClip"
                         src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
                         alt="magImg">
@@ -943,7 +945,7 @@
                         Rationing Coronavirus Care</a>
 
                 </article>
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-3 mt-lg-4 mt-md-1">
                     <img class="w-100 featureClip"
                         src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
                         alt="magImg">
@@ -957,7 +959,7 @@
                         Rationing Coronavirus Care</a>
 
                 </article>
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-3 mt-lg-4 mt-md-1">
                     <img class="w-100 featureClip"
                         src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
                         alt="magImg">
@@ -973,7 +975,7 @@
             </div>
             <!-- magazine second line -->
             <div class="row">
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-3">
                     <img class="w-100 featureClip"
                         src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
                         alt="magImg">
@@ -987,7 +989,7 @@
                         Rationing Coronavirus Care</a>
 
                 </article>
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-3">
                     <img class="w-100 featureClip"
                         src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
                         alt="magImg">
@@ -1001,7 +1003,7 @@
                         Rationing Coronavirus Care</a>
 
                 </article>
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-3">
                     <img class="w-100 featureClip"
                         src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
                         alt="magImg">
@@ -1014,7 +1016,7 @@
                         the Debate Over
                         Rationing Coronavirus Care</a>
                 </article>
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-3">
                     <div class="features">
                         <img class="w-100 lastImg"
                             src="https://d.newsweek.com/en/full/1579838/floating-comfort.webp?w=480&h=320&q=90&f=258c9c9847cf6679679c9950f21ca7db"
@@ -1030,13 +1032,13 @@
 
         <!-- Editor's pick -->
 
-        <section class="wrapper editorPick">
+        <section class="wrapper editorPick mt-lg-3 mt-md-5 mt-sm-5">
             <div class="d-flex flex-row justify-content-center align-items-center">
                 <img class="newsIcon" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="newsIcon">
                 <h5 class="text-uppercase font-weight-bolder">editor's pick</h5>
             </div>
             <div class="row">
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-6">
                     <div class="card">
                         <a class="text-uppercase imgTitle">u.s.</a>
                         <a href="#">
@@ -1053,7 +1055,7 @@
                         professionals
                         over the drug's reported effectiveness.</p>
                 </article>
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-6">
                     <div class="card">
                         <a class="text-uppercase imgTitle">u.s.</a>
                         <a href="#">
@@ -1070,7 +1072,7 @@
                         professionals
                         over the drug's reported effectiveness.</p>
                 </article>
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-6">
                     <div class="card">
                         <a class="text-uppercase imgTitle">u.s.</a>
                         <a href="#">
@@ -1087,7 +1089,7 @@
                         professionals
                         over the drug's reported effectiveness.</p>
                 </article>
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-6">
                     <div class="card">
                         <a class="text-uppercase imgTitle">u.s.</a>
                         <a href="#">
@@ -1108,7 +1110,7 @@
 
             <!-- Editor's pick second line -->
             <div class="row">
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-6">
                     <div class="card">
                         <a class="text-uppercase imgTitle">u.s.</a>
                         <a href="#">
@@ -1125,7 +1127,7 @@
                         professionals
                         over the drug's reported effectiveness.</p>
                 </article>
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-6">
                     <div class="card">
                         <a class="text-uppercase imgTitle">u.s.</a>
                         <a href="#">
@@ -1142,7 +1144,7 @@
                         professionals
                         over the drug's reported effectiveness.</p>
                 </article>
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-6">
                     <div class="card">
                         <a class="text-uppercase imgTitle">u.s.</a>
                         <a href="#">
@@ -1159,7 +1161,7 @@
                         professionals
                         over the drug's reported effectiveness.</p>
                 </article>
-                <article class="col-lg-3">
+                <article class="col-lg-3 col-md-6">
                     <div class="card">
                         <a class="text-uppercase imgTitle">u.s.</a>
                         <a href="#">
@@ -1178,10 +1180,13 @@
                 </article>
             </div>
         </section>
+
+        <!-- US section -->
+
         <section class="wrapper us">
             <h5 class="text-uppercase font-weight-bold">u.s.</h5>
             <div class="row">
-                <article class="col-lg-4 d-flex flex-column">
+                <article class="col-lg-4 d-flex flex-column col-md-4">
                     <a href="#">
                         <img src="https://d.newsweek.com/en/full/1580945/tilman-fertitta.webp?w=397&h=265&f=6ac41f3218a0a44bccd66eb9fbcb68d0"
                             alt="us Image">
@@ -1194,7 +1199,7 @@
                 </article>
 
 
-                <article class="col-lg-4">
+                <article class="col-lg-4 col-md-4">
                     <a href="#">
                         <img src="https://d.newsweek.com/en/full/1580945/tilman-fertitta.webp?w=397&h=265&f=6ac41f3218a0a44bccd66eb9fbcb68d0"
                             alt="us Image">
@@ -1207,7 +1212,7 @@
                 </article>
 
 
-                <article class="col-lg-4 usOther">
+                <article class="col-lg-4 usOther col-md-4">
                     <div class="d-flex flex-column uslatest">
                         <article class="d-flex flex-row">
                             <a href="#">
@@ -1262,7 +1267,7 @@
         <section class="wrapper us">
             <h5 class="text-uppercase font-weight-bold">u.s.</h5>
             <div class="row">
-                <article class="col-lg-4 d-flex flex-column">
+                <article class="col-lg-4 d-block col-md-4">
                     <a href="#">
                         <img src="https://d.newsweek.com/en/full/1580945/tilman-fertitta.webp?w=397&h=265&f=6ac41f3218a0a44bccd66eb9fbcb68d0"
                             alt="us Image">
@@ -1275,7 +1280,7 @@
                 </article>
 
 
-                <article class="col-lg-4">
+                <article class="col-lg-4 col-md-4">
                     <a href="#">
                         <img src="https://d.newsweek.com/en/full/1580945/tilman-fertitta.webp?w=397&h=265&f=6ac41f3218a0a44bccd66eb9fbcb68d0"
                             alt="us Image">
@@ -1288,7 +1293,7 @@
                 </article>
 
 
-                <article class="col-lg-4 usOther">
+                <article class="col-lg-4 usOther col-md-4">
                     <div class="d-flex flex-column uslatest">
                         <article class="d-flex flex-row">
                             <a href="#">
@@ -1342,7 +1347,7 @@
         <section class="wrapper us">
             <h5 class="text-uppercase font-weight-bold">u.s.</h5>
             <div class="row">
-                <article class="col-lg-4 d-flex flex-column">
+                <article class="col-lg-4 d-flex flex-column col-md-4">
                     <a href="#">
                         <img src="https://d.newsweek.com/en/full/1580945/tilman-fertitta.webp?w=397&h=265&f=6ac41f3218a0a44bccd66eb9fbcb68d0"
                             alt="us Image">
@@ -1355,7 +1360,7 @@
                 </article>
 
 
-                <article class="col-lg-4">
+                <article class="col-lg-4 col-md-4">
                     <a href="#">
                         <img src="https://d.newsweek.com/en/full/1580945/tilman-fertitta.webp?w=397&h=265&f=6ac41f3218a0a44bccd66eb9fbcb68d0"
                             alt="us Image">
@@ -1368,7 +1373,7 @@
                 </article>
 
 
-                <article class="col-lg-4 usOther">
+                <article class="col-lg-4 usOther col-md-4">
                     <div class="d-flex flex-column uslatest">
                         <article class="d-flex flex-row">
                             <a href="#">
@@ -1423,7 +1428,7 @@
         <section class="wrapper us">
             <h5 class="text-uppercase font-weight-bold">u.s.</h5>
             <div class="row">
-                <article class="col-lg-4 d-flex flex-column">
+                <article class="col-lg-4 d-flex flex-column col-md-4">
                     <a href="#">
                         <img src="https://d.newsweek.com/en/full/1580945/tilman-fertitta.webp?w=397&h=265&f=6ac41f3218a0a44bccd66eb9fbcb68d0"
                             alt="us Image">
@@ -1436,7 +1441,7 @@
                 </article>
 
 
-                <article class="col-lg-4">
+                <article class="col-lg-4 col-md-4">
                     <a href="#">
                         <img src="https://d.newsweek.com/en/full/1580945/tilman-fertitta.webp?w=397&h=265&f=6ac41f3218a0a44bccd66eb9fbcb68d0"
                             alt="us Image">
@@ -1449,7 +1454,7 @@
                 </article>
 
 
-                <article class="col-lg-4 usOther">
+                <article class="col-lg-4 usOther col-md-4">
                     <div class="d-flex flex-column uslatest">
                         <article class="d-flex flex-row">
                             <a href="#">
@@ -1503,7 +1508,7 @@
         <section class="wrapper us">
             <h5 class="text-uppercase font-weight-bold">u.s.</h5>
             <div class="row">
-                <article class="col-lg-4 d-flex flex-column">
+                <article class="col-lg-4 d-flex flex-column col-md-4">
                     <a href="#">
                         <img src="https://d.newsweek.com/en/full/1580945/tilman-fertitta.webp?w=397&h=265&f=6ac41f3218a0a44bccd66eb9fbcb68d0"
                             alt="us Image">
@@ -1516,7 +1521,7 @@
                 </article>
 
 
-                <article class="col-lg-4">
+                <article class="col-lg-4 col-md-4">
                     <a href="#">
                         <img src="https://d.newsweek.com/en/full/1580945/tilman-fertitta.webp?w=397&h=265&f=6ac41f3218a0a44bccd66eb9fbcb68d0"
                             alt="us Image">
@@ -1529,7 +1534,7 @@
                 </article>
 
 
-                <article class="col-lg-4 usOther">
+                <article class="col-lg-4 usOther col-md-4">
                     <div class="d-flex flex-column uslatest">
                         <article class="d-flex flex-row">
                             <a href="#">
@@ -1583,7 +1588,7 @@
         <section class="wrapper sports border-bottom-0">
             <h5 class="text-uppercase font-weight-bold">u.s.</h5>
             <div class="row">
-                <article class="col-lg-4 d-flex flex-column">
+                <article class="col-lg-4 d-flex flex-column col-md-4">
                     <a href="#">
                         <img src="https://d.newsweek.com/en/full/1580945/tilman-fertitta.webp?w=397&h=265&f=6ac41f3218a0a44bccd66eb9fbcb68d0"
                             alt="us Image">
@@ -1596,7 +1601,7 @@
                 </article>
 
 
-                <article class="col-lg-4">
+                <article class="col-lg-4 col-md-4">
                     <a href="#">
                         <img src="https://d.newsweek.com/en/full/1580945/tilman-fertitta.webp?w=397&h=265&f=6ac41f3218a0a44bccd66eb9fbcb68d0"
                             alt="us Image">
@@ -1609,7 +1614,7 @@
                 </article>
 
 
-                <article class="col-lg-4 usOther">
+                <article class="col-lg-4 usOther col-md-4">
                     <div class="d-flex flex-column uslatest">
                         <article class="d-flex flex-row">
                             <a href="#">
@@ -1663,10 +1668,10 @@
 
         <section class="wrapper subs border-top border-bottom">
             <div class="row">
-                <article class="col-lg-8 d-flex flex-column">
+                <article class="col-lg-8 d-flex flex-column col-md-12">
                     <h6 class="text-uppercase font-weight-bold text-danger">subscribe</h5>
-                        <div class="bg-light row ml-0">
-                            <div class="subsImage position-relative col-lg-4 pb-1 pr-5">
+                        <div class="bg-light row ml-0 d-flex flex-md-row">
+                            <div class="subsImage position-relative col-lg-4 col-md-4 pb-1 pr-5">
                                 <img class="p-4"
                                     src="https://d.newsweek.com/en/full/1577760/cover-april-10-2020.jpg?w=170&q=95&f=a4b41b48dc29ccde5be9091db89cdf35"
                                     alt="subsImg1">
@@ -1675,7 +1680,7 @@
                                     alt="subsImg1">
                             </div>
                             <div
-                                class="col-lg-8 d-flex flex-column justify-content-center align-content-center pt-5 pl-4">
+                                class="col-lg-8 col-md-8 d-flex flex-column justify-content-center align-content-center pt-5 pl-4">
                                 <h5 class="font-weight-bold">In-depth Stories You Don't See Elsewhere About Topics You
                                     Want to Read!</h5>
                                 <p>All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You!</p>
@@ -1689,14 +1694,14 @@
                         </div>
                 </article>
 
-                <article class="col-lg-4 d-flex flex-column">
+                <article class="col-lg-4 d-flex flex-column col-md-12">
                     <h6 class="text-uppercase font-weight-bold text-danger">newsletter</h5>
                         <div class="d-flex flex-row border mt-2">
-                            <div class=" col-lg-6 newsletter pl-0 pt-0 pr-0">
+                            <div class="col-lg-6 newsletter pl-0 pt-0 pr-0 col-md-3">
                                 <img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"
                                     alt="newsletter">
                             </div>
-                            <div class="col-lg-6 px-4 py-4">
+                            <div class="col-lg-6 col-md-9 my-auto">
                                 <h5 class="font-weight-bold">The Starting 5</h5>
                                 <p>See why nearly a quarter of a million subscribers begin their day with the Starting
                                     5.
