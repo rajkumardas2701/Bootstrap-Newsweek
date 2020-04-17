@@ -630,6 +630,26 @@ footer div span {
 
   .position-absolute {
     top: 40px;
-    left: 300px;
+    left: 40%;
+  }
+
+  .spon article button {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .position-absolute {
+    top: 40px;
+    left: 40%;
+  }
+
+  .spon article button {
+    width: 60%;
+  }
+
+  .location,
+  .head_img1 {
+    display: none;
   }
 }
