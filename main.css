@@ -15,7 +15,7 @@
 }
 
 .bg-red {
-  background-color: #F72210;
+  background-color: #f72210;
 }
 
 .head_img {
@@ -53,6 +53,12 @@ header a svg {
   color: red;
 }
 
+footer div a svg {
+  width: 100%;
+  height: 50px;
+  fill: red;
+}
+
 .navBtn svg {
   width: 100%;
   height: 15px;
@@ -73,8 +79,27 @@ header a svg {
   top: 0;
 }
 
+button {
+  display: flex;
+  margin: 10px 0;
+}
+
 .input-group-append button {
   width: 20%;
+}
+
+ul li a {
+  font-size: 14px;
+  color: rgb(143, 142, 142);
+}
+
+.navigation a {
+  color: black;
+  font-size: 1.1em;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .belowHead div a {
@@ -83,7 +108,6 @@ header a svg {
 
 .navigation {
   width: 86%;
-  /* padding-right: 14%; */
   height: 40px;
 }
 
@@ -99,9 +123,9 @@ header a svg {
   width: 6%;
 }
 
-.navigation a {
-  color: black;
-  font-size: 1.1em;
+ul li a:hover {
+  color: rgb(75, 74, 74);
+  text-decoration: none;
 }
 
 .navigation a:hover {
@@ -133,6 +157,7 @@ header a svg {
 .container-fluid {
   padding-top: 20px;
   padding-left: 10px;
+  padding-right: 0;
 }
 
 .featuredImg {
@@ -148,7 +173,7 @@ header a svg {
   padding: 5px 10px;
   font-weight: bold;
   color: red;
-  background-color: #F7F6F2;
+  background-color: #f7f6f2;
 }
 
 .card .heroTitle {
@@ -188,6 +213,16 @@ main aside h6 {
   font-size: 0.95em;
 }
 
+.deb_auth a h6 {
+  color: black;
+  vertical-align: middle;
+  margin: 10px 0 10px 10px;
+}
+
+.article a h6 {
+  padding-top: 20px;
+}
+
 .aboutAuthor a:hover,
 .aboutAuthor a h6:hover {
   text-decoration: none;
@@ -198,6 +233,25 @@ main aside h6 {
   font-size: 0.8em;
   color: #515250;
   line-height: normal;
+}
+
+.debate-box1 p {
+  margin-top: 10px;
+  font-size: 0.9em;
+  letter-spacing: -1px;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.bgFeature p {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.AbtFeat p {
+  margin-bottom: 0;
 }
 
 .cnt article .aboutAuthor p {
@@ -214,20 +268,20 @@ main aside h6 {
   border-bottom: 4px double rgb(206, 207, 207);
 }
 
+.features img {
+  width: 100%;
+}
+
+.newsletter img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
 .deb_auth a img {
   width: 97px;
   height: 100px;
   object-fit: cover;
-}
-
-.deb_auth a h6 {
-  color: black;
-  vertical-align: middle;
-  margin: 10px 0 10px 10px;
-}
-
-.container-fluid {
-  padding-right: 0;
 }
 
 .aside {
@@ -256,12 +310,6 @@ main aside h6 {
 
 .opinion section:first-child {
   margin-top: 0;
-}
-
-.debate-box1 p {
-  margin-top: 10px;
-  font-size: 0.9em;
-  letter-spacing: -1px;
 }
 
 .debate-box1 .deb_img1 {
@@ -306,11 +354,7 @@ main aside h6 {
   padding: 5px 10px;
   font-weight: bold;
   color: rgba(72, 126, 252, 0.917);
-  background-color: #F7F6F2;
-}
-
-.card p {
-  margin-bottom: 0;
+  background-color: #f7f6f2;
 }
 
 .sponHead {
@@ -329,37 +373,19 @@ article .border {
 .newsIcon {
   width: 30px;
   height: 30px;
-  padding: 0px;
+  padding: 0;
   background-color: red;
   margin-right: 10px;
   align-self: center;
 }
 
-button {
-  display: flex;
-  margin: 10px 0;
-}
-
 .cnt {
-  /* margin-top: 10px; */
   padding-top: 10px;
   border-top: 1px solid rgb(206, 207, 207);
 }
 
-/* .centerSec {
-  position: relative;
-} */
-
-/* .maincontent {
-  margin-bottom: 20px;
-} */
-
 .features {
   position: relative;
-}
-
-.features img {
-  width: 100%;
 }
 
 .features .imgTitle {
@@ -370,7 +396,7 @@ button {
   padding: 5px 10px;
   font-weight: bold;
   color: red;
-  background-color: #F7F6F2;
+  background-color: #f7f6f2;
   opacity: 80%;
 }
 
@@ -382,21 +408,12 @@ button {
   padding: 5px 10px;
 }
 
-/* .features .imgTitle:hover {
-  color: black;
-} */
-
 .bgFeature {
-  background-color: #F4F5F6;
+  background-color: #f4f5f6;
   color: black;
   height: 40px;
   align-items: center;
   font-size: 1em;
-}
-
-.bgFeature p {
-  margin-bottom: 0;
-  margin-right: 10px;
 }
 
 .bgFeature:hover {
@@ -411,11 +428,31 @@ button {
   padding: 10px 0;
 }
 
+.us .row {
+  margin: 10px 0;
+  border-top: 0;
+  border-bottom: 1px solid rgb(206, 207, 207);
+}
+
+.sports .row {
+  margin: 10px 0;
+  border-top: 0;
+}
+
+.subs .row {
+  border-top: 0;
+}
+
 .magazineSection .row:last-child {
   border-top: 0;
 }
 
-.magazineSection .row:last-child .featureClip  {
+.featureClip {
+  height: 70%;
+  object-fit: cover;
+}
+
+.magazineSection .row:last-child .featureClip {
   height: 70%;
   object-fit: cover;
   border-top: 0;
@@ -429,37 +466,34 @@ button {
   border-bottom: 1px solid rgb(206, 207, 207);
 }
 
+.us h5 {
+  color: red;
+}
+
+.sports h5 {
+  color: red;
+}
+
 .magazineSection div h5 {
   letter-spacing: -1;
   font-size: 1.2em;
   vertical-align: middle;
 }
 
-/* .magazineSection .row article a {
-  letter-spacing: -1;
-  line-height: -1em;
-} */
-
-.featureClip {
-  height: 70%;
-  object-fit: cover;
-}
-
 .AbtFeat {
   margin-top: 10px;
+}
+
+footer div span {
+  font-size: 1em;
+  font-weight: 500;
+  color: #666;
+  margin-left: 20px;
 }
 
 .AbtFeat span {
   margin-left: 10px;
   color: red;
-}
-
-.article a h6 {
-  padding-top: 20px;
-}
-
-.AbtFeat P {
-  margin-bottom: 0;
 }
 
 .magDesc {
@@ -485,21 +519,16 @@ button {
   padding: 10px 20px;
 }
 
-.us h5 {
-  color: red;
-}
-
-.us .row {
-  margin: 10px 0;
-  border-top: 0;
-  border-bottom: 1px solid rgb(206, 207, 207);
-}
-
 .us article {
   padding-left: 0;
 }
 
 .us article a img {
+  width: 100%;
+  height: auto;
+}
+
+.sports article a img {
   width: 100%;
   height: auto;
 }
@@ -513,22 +542,8 @@ button {
   padding: 10px 20px;
 }
 
-.sports h5 {
-  color: red;
-}
-
-.sports .row {
-  margin: 10px 0;
-  border-top: 0;
-}
-
 .sports article {
   padding-left: 0;
-}
-
-.sports article a img {
-  width: 100%;
-  height: auto;
 }
 
 .sports article div article a img {
@@ -549,15 +564,6 @@ button {
   border-bottom: 0;
 }
 
-.subs .row {
-  border-top: 0;
-}
-
-/* .subsdesc {
-  width: 60%;
-  align-content: space-between;
-} */
-
 .subs .row article {
   padding: 0;
 }
@@ -565,25 +571,6 @@ button {
 .position-absolute {
   top: 40px;
   left: 100px;
-}
-
-.newsletter img {
-  width: 100%;
-  height: 300px ;
-  object-fit: cover;
-}
-
-footer div a svg {
-  width: 100%;
-  height: 50px;
-  fill: red;
-}
-
-footer div span {
-  font-size: 1em;
-  font-weight: 500;
-  color: #666;
-  margin-left: 20px;
 }
 
 .icons {
@@ -596,29 +583,13 @@ footer div span {
   color: blue;
 }
 
-ul li a {
-  font-size: 14px;
-  color: rgb(143, 142, 142);
-}
-
-ul li a:hover {
-  color: rgb(75, 74, 74);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
 .fa-bars {
   font-size: 1.5em;
 }
 
-
 /* Media queries for lower than large screen */
 
-@media screen and (max-width: 991px) and (min-width: 0) {
-  
+@media screen and (max-width: 991px) {
   .navigation::before {
     display: none;
   }
@@ -634,7 +605,6 @@ a:hover {
     align-content: center;
   }
 }
-
 
 /* Media queries for medium screen */
 
@@ -654,7 +624,7 @@ a:hover {
 @media screen and (max-width: 767px) {
   .newsletter img {
     width: 100%;
-    height: 150px ;
+    height: 150px;
     object-fit: cover;
   }
 

@@ -13,9 +13,9 @@
 
 <body class="bg-light">
     <header
-        class="navbar fixed-top d-flex flex-row bg-red wrapper navbar-height justify-content-between navbar-expand-sm navbar-expand-md navbar-expand-lg">
+        class="navbar fixed-top d-flex flex-row bg-red wrapper navbar-height justify-content-between navbar-expand-sm navbar-expand-xs navbar-expand-md navbar-expand-lg">
         <div
-            class="d-lg-block d-sm-none d-md-none justify-content-around p-2 ml-3 order-md-1 order-sm-1 order-lg-0 pr-md-5 pr-sm-5">
+            class="d-lg-block d-sm-none d-xs-none d-md-none justify-content-around p-2 ml-3 order-md-1 order-sm-1 order-xs-1 order-lg-0 pr-md-5 pr-xs-5 pr-sm-5">
             <a href="#" class="font-weight-bold text-white text-font pb-1">
                 <img class="head_img" src="https://g.newsweek.com/img/weather/30.webp" alt=""> 33°
                 <span class="font-weight-bold text-white">Bangalore,
@@ -25,8 +25,9 @@
             <p class="text-white mb-0 pt-1">Thu, Apr 09, 2020</p>
         </div>
         <div>
-            <a href="https://www.newsweek.com" class="order-md-0 pl-md-2 pl-sm-2 order-sm-0 order-lg-1">
-                <svg version=" 1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            <a href="https://www.newsweek.com"
+                class="order-md-0 pl-md-2 pl-sm-2 pl-xs-2 order-sm-0 order-xs-0 order-lg-1">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
                     xml:space="preserve">
                     <g>
@@ -38,17 +39,17 @@
 
             </a>
             <a href="#"
-                class="font-weight-bold text-white text-font pb-1 order-999 d-lg-none d-md-inlineblock d-sm-inlineblock pl-md-3"><img
+                class="font-weight-bold text-white text-font pb-1 order-999 d-lg-none d-md-inlineblock d-sm-inlineblock d-xs-inlineblock pl-md-3"><img
                     class="head_img" src="https://g.newsweek.com/img/weather/30.webp" alt=""> 33°
                 <span class="font-weight-bold text-white">Bangalore, IN&nbsp;</span>
                 <img class="head_img1" src="https://g.newsweek.com/www/images/icon-arrow-right.svg" alt="arrow">
             </a>
         </div>
 
-        <a href="#" class="d-flex flex-row align-self-end mr-3 order-md-2 order-lg-2 order-sm-2">
-            <p class="text-uppercase text-white font-weight-bold align-self-center mb-0">sign in</p>
+        <div class="d-flex flex-row align-self-end mr-3 order-md-2 order-lg-2 order-sm-2 order-xs-2">
+            <a href="#" class="text-uppercase text-white font-weight-bold align-self-center mb-0">sign in</a>
             <button class="text-uppercase navBtn text-danger font-weight-bold">subscribe
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                <svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 14"
                     style="enable-background:new 0 0 8 14;" xml:space="preserve">
                     <g id="arrow-right">
@@ -60,18 +61,21 @@
                         </clipPath>
                         <g id="Shape_1" class="st0">
                             <g>
-                                <polygon class="st1" points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7	"></polygon>
+                                <polygon class="st1" points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7	">
+                                </polygon>
                             </g>
                         </g>
                     </g>
-                </svg></button>
-            <i class="fas fa-bars d-block d-lg-none d-md-block d-sm-block align-self-center ml-3 text-white"></i>
-        </a>
+                </svg>
+            </button>
+            <i
+                class="fas fa-bars d-block d-lg-none d-md-block d-sm-block d-xs-block align-self-center ml-3 text-white"></i>
+        </div>
 
 
     </header>
     <nav
-        class="wrapper belowHead d-inline-block d-lg-block d-sm-none d-md-none justify-content-between navbar navbar-expand-sm navbar-expand-md navbar-expand-lg">
+        class="wrapper belowHead d-inline-block d-lg-block d-sm-none d-xs-none d-md-none justify-content-between navbar navbar-expand-sm navbar-expand-md navbar-expand-lg">
         <ul class="d-flex flex-row navigation mb-0 pl-2 align-items-center justify-content-around">
 
             <li class="font-weight-bold text-uppercase text-center border-right list-unstyled flex-grow-1"><a
@@ -130,7 +134,7 @@
 
         <div class="input-group-append d-flex flex-row justify-content-around">
             <input type="text" class="form-control w-100 pl-0 border-0" placeholder="Search">
-            <button class="mt-0 mb-0 pl-1"><img class="head_img2"
+            <button class="mt-0 mb-0 pl-1"><img class="head_img2" alt=""
                     src="https://g.newsweek.com/www/images/icon-search-glass.svg"></button>
         </div>
     </nav>
@@ -373,7 +377,7 @@
                         <a href="#" class="text-uppercase heroTile">HEROES OF THE PANDEMIC</a>
                         <div class="d-flex flex-row justify-content-between">
                             <article class="col-lg-4 d-flex flex-column">
-                                <div href="#" class="card">
+                                <div class="card">
                                     <a class="text-capitalize heroTitle">pandemic Heroes</a>
                                     <a href="#">
                                         <img class="card-img-top featuredImg"
@@ -390,7 +394,7 @@
                             </article>
 
                             <article class="col-lg-4 d-flex flex-column">
-                                <div href="#" class="card">
+                                <div class="card">
                                     <a class="text-capitalize heroTitle">pandemic Heroes</a>
                                     <a href="#">
                                         <img class="card-img-top featuredImg"
@@ -407,7 +411,7 @@
                             </article>
 
                             <article class="col-lg-4 d-flex flex-column heroLast">
-                                <div href="#" class="card">
+                                <div class="card">
                                     <a class="text-capitalize heroTitle">pandemic Heroes</a>
                                     <a href="#">
                                         <img class="card-img-top featuredImg"
@@ -431,7 +435,7 @@
                         <a href="#" class="text-uppercase heroTile">CULTURE & TRAVEL</a>
                         <div class="d-flex flex-row justify-content-between">
                             <article class="col-lg-4 d-flex flex-column">
-                                <div href="#" class="card">
+                                <div class="card">
                                     <a class="text-capitalize heroTitle">new york</a>
                                     <a href="#">
                                         <img class="card-img-top featuredImg"
@@ -448,7 +452,7 @@
                             </article>
 
                             <article class="col-lg-4 d-flex flex-column">
-                                <div href="#" class="card">
+                                <div class="card">
                                     <a class="text-capitalize heroTitle">nature</a>
                                     <a href="#">
                                         <img class="card-img-top featuredImg"
@@ -466,7 +470,7 @@
                             </article>
 
                             <article class="col-lg-4 d-flex flex-column heroLast">
-                                <div href="#" class="card">
+                                <div class="card">
                                     <a class="text-capitalize heroTitle">animals</a>
                                     <a href="#">
                                         <img class="card-img-top featuredImg"
@@ -922,10 +926,10 @@
                             <img class="newsIcon" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="newsIcon">
                             <h6 class="text-dark font-weight-bold">SIGN UP FOR OUR NEWSLETTER</h6>
                         </div>
-                        <a href="#"><button type="button" class="btn btn-dark text-uppercase">sign
-                                up&nbsp;<img class="head_img1"
-                                    src="https://g.newsweek.com/www/images/icon-arrow-right.svg" alt=""></button>
-                        </a>
+                        <button type="button" class="btn btn-dark text-uppercase font-weight-bold w-50">sign
+                            up&nbsp;<img class="head_img1" src="https://g.newsweek.com/www/images/icon-arrow-right.svg"
+                                alt=""></button>
+
                         <a href="#" class="text-dark font-weight-bold">Update your preferences »</a>
 
                     </article>
@@ -1143,7 +1147,7 @@
                     <a href="#" class="text-uppercase heroTile pb-sm-2">HEROES OF THE PANDEMIC</a>
                     <div class="d-flex flex-column justify-content-between">
                         <article class="col-lg-4 d-flex flex-column">
-                            <div href="#" class="card">
+                            <div class="card">
                                 <a class="text-capitalize heroTitle">pandemic Heroes</a>
                                 <a href="#">
                                     <img class="card-img-top featuredImg"
@@ -1160,7 +1164,7 @@
                         </article>
 
                         <article class="col-lg-4 d-flex flex-column">
-                            <div href="#" class="card">
+                            <div class="card">
                                 <a class="text-capitalize heroTitle">pandemic Heroes</a>
                                 <a href="#">
                                     <img class="card-img-top featuredImg"
@@ -1177,7 +1181,7 @@
                         </article>
 
                         <article class="col-lg-4 d-flex flex-column heroLast">
-                            <div href="#" class="card">
+                            <div class="card">
                                 <a class="text-capitalize heroTitle">pandemic Heroes</a>
                                 <a href="#">
                                     <img class="card-img-top featuredImg"
@@ -1201,7 +1205,7 @@
                     <a href="#" class="text-uppercase heroTile pb-sm-2">CULTURE &amp; TRAVEL</a>
                     <div class="d-flex flex-column justify-content-between">
                         <article class="col-lg-4 d-flex flex-column">
-                            <div href="#" class="card">
+                            <div class="card">
                                 <a class="text-capitalize heroTitle">new york</a>
                                 <a href="#">
                                     <img class="card-img-top featuredImg"
@@ -1218,7 +1222,7 @@
                         </article>
 
                         <article class="col-lg-4 d-flex flex-column">
-                            <div href="#" class="card">
+                            <div class="card">
                                 <a class="text-capitalize heroTitle">nature</a>
                                 <a href="#">
                                     <img class="card-img-top featuredImg"
@@ -1236,13 +1240,13 @@
                         </article>
 
                         <article class="col-lg-4 d-flex flex-column heroLast">
-                            <div href="#" class="card">
+                            <div class="card">
                                 <a class="text-capitalize heroTitle">animals</a>
                                 <a href="#">
                                     <img class="card-img-top featuredImg"
                                         src="https://d.newsweek.com/en/full/1579541/goats-wales.webp?w=397&amp;h=397&amp;f=7f512271d8c8d72d2be8e248484d0d92"
-                                        alt="art_Img">
-                                </a>
+                                        alt="art_Img"></a>
+
                             </div>
                             <h5 class="text-capitalize font-weight-normal">Restauranteur Delivers Oranges to
                                 Hospital
@@ -1584,17 +1588,18 @@
                     </div>
                 </article>
                 <!-- sponsor -->
-                <div class="sticky-top spon">
+                <div class="sticky-top spon d-sm-flex flex-sm-column">
                     <article
-                        class="card p-3 m-3 bg-light d-lg-block d-md-block d-sm-flex flex-sm-column ml-sm-5 mr-sm-5">
+                        class="card p-3 m-3 bg-light d-lg-block w-50 d-md-block d-sm-flex flex-sm-column align-self-sm-center">
                         <div class="d-flex flex-row">
                             <img class="newsIcon" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="newsIcon">
                             <h6 class="text-dark font-weight-bold">SIGN UP FOR OUR NEWSLETTER</h6>
                         </div>
-                        <a href="#"><button type="button" class="btn btn-dark text-uppercase">sign
-                                up&nbsp;<img class="head_img1"
-                                    src="https://g.newsweek.com/www/images/icon-arrow-right.svg" alt=""></button>
-                        </a>
+                        <!-- <a href="#"> -->
+                        <button type="button" class="btn btn-dark w-50 text-uppercase font-weight-bold">sign
+                            up&nbsp;<img class="head_img1" src="https://g.newsweek.com/www/images/icon-arrow-right.svg"
+                                alt=""></button>
+                        <!-- </a> -->
                         <a href="#" class="text-dark font-weight-bold">Update your preferences »</a>
 
                     </article>
@@ -1658,6 +1663,7 @@
             </div>
             <div class="row">
                 <article class="col-lg-3 col-md-3 mt-lg-1 mt-md-4">
+                    <h6 class="d-none">empty</h6>
                     <div class="features">
                         <img src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.webp?w=290&h=387&q=90&f=68803bc5f58747c010919715f0fe09de"
                             alt="features">
@@ -1670,6 +1676,7 @@
                     </a>
                 </article>
                 <article class="col-lg-3 col-md-3 mt-lg-4 mt-md-1">
+                    <h6 class="d-none">empty</h6>
                     <img class="w-100 featureClip"
                         src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
                         alt="magImg">
@@ -1684,6 +1691,7 @@
 
                 </article>
                 <article class="col-lg-3 col-md-3 mt-lg-4 mt-md-1">
+                    <h6 class="d-none">empty</h6>
                     <img class="w-100 featureClip"
                         src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
                         alt="magImg">
@@ -1698,6 +1706,7 @@
 
                 </article>
                 <article class="col-lg-3 col-md-3 mt-lg-4 mt-md-1">
+                    <h6 class="d-none">empty</h6>
                     <img class="w-100 featureClip"
                         src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
                         alt="magImg">
@@ -1714,6 +1723,7 @@
             <!-- magazine second line -->
             <div class="row">
                 <article class="col-lg-3 col-md-3">
+                    <h6 class="d-none">empty</h6>
                     <img class="w-100 featureClip"
                         src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
                         alt="magImg">
@@ -1728,6 +1738,7 @@
 
                 </article>
                 <article class="col-lg-3 col-md-3">
+                    <h6 class="d-none">empty</h6>
                     <img class="w-100 featureClip"
                         src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
                         alt="magImg">
@@ -1742,6 +1753,7 @@
 
                 </article>
                 <article class="col-lg-3 col-md-3">
+                    <h6 class="d-none">empty</h6>
                     <img class="w-100 featureClip"
                         src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
                         alt="magImg">
@@ -1951,6 +1963,7 @@
 
 
                 <article class="col-lg-4 usOther col-md-4">
+                    <h6 class="d-none">empty</h6>
                     <div class="d-flex flex-column uslatest">
                         <article class="d-flex flex-row">
                             <a href="#">
@@ -1998,6 +2011,7 @@
                     </div>
 
                 </article>
+            </div>
         </section>
 
         <!-- world section starts -->
@@ -2032,6 +2046,7 @@
 
 
                 <article class="col-lg-4 usOther col-md-4">
+                    <h6 class="d-none">empty</h6>
                     <div class="d-flex flex-column uslatest">
                         <article class="d-flex flex-row">
                             <a href="#">
@@ -2079,6 +2094,7 @@
                     </div>
 
                 </article>
+            </div>
         </section>
 
         <!-- Business Section -->
@@ -2112,6 +2128,7 @@
 
 
                 <article class="col-lg-4 usOther col-md-4">
+                    <h6 class="d-none">empty</h6>
                     <div class="d-flex flex-column uslatest">
                         <article class="d-flex flex-row">
                             <a href="#">
@@ -2159,6 +2176,7 @@
                     </div>
 
                 </article>
+            </div>
         </section>
 
         <!-- Tech and Science Section -->
@@ -2180,6 +2198,7 @@
 
 
                 <article class="col-lg-4 col-md-4">
+
                     <a href="#">
                         <img src="https://d.newsweek.com/en/full/1580945/tilman-fertitta.webp?w=397&h=265&f=6ac41f3218a0a44bccd66eb9fbcb68d0"
                             alt="us Image">
@@ -2193,6 +2212,7 @@
 
 
                 <article class="col-lg-4 usOther col-md-4">
+                    <h6 class="d-none">empty</h6>
                     <div class="d-flex flex-column uslatest">
                         <article class="d-flex flex-row">
                             <a href="#">
@@ -2240,6 +2260,7 @@
                     </div>
 
                 </article>
+            </div>
         </section>
 
         <!-- culture section -->
@@ -2273,6 +2294,7 @@
 
 
                 <article class="col-lg-4 usOther col-md-4">
+                    <h6 class="d-none">empty</h6>
                     <div class="d-flex flex-column uslatest">
                         <article class="d-flex flex-row">
                             <a href="#">
@@ -2320,6 +2342,7 @@
                     </div>
 
                 </article>
+            </div>
         </section>
 
         <!-- Sports section -->
@@ -2353,6 +2376,7 @@
 
 
                 <article class="col-lg-4 usOther col-md-4">
+                    <h6 class="d-none">empty</h6>
                     <div class="d-flex flex-column uslatest">
                         <article class="d-flex flex-row">
                             <a href="#">
@@ -2400,77 +2424,76 @@
                     </div>
 
                 </article>
+            </div>
         </section>
 
         <!-- Subscribe section -->
 
         <section class="wrapper subs border-top border-bottom">
+            <h6 class="d-none">empty</h6>
             <div class="row">
                 <article class="col-lg-8 d-flex flex-column col-md-12">
-                    <h6 class="text-uppercase font-weight-bold text-danger">subscribe</h5>
-                        <div class="bg-light row ml-0 d-flex flex-md-row flex-sm-row">
-                            <div
-                                class="subsImage w-100 position-relative col-lg-4 col-md-4 col-sm-12 pb-1 pr-5 px-sm-2 d-sm-flex flex-sm-column align-items-sm-center align-items-md-start align-items-lg-start">
-                                <img class="p-4 justify-self-sm-center"
-                                    src="https://d.newsweek.com/en/full/1577760/cover-april-10-2020.jpg?w=170&q=95&f=a4b41b48dc29ccde5be9091db89cdf35"
-                                    alt="subsImg1">
-                                <img class="position-absolute"
-                                    src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg?w=170&q=95&f=b4884b3be2e05e586232cc3f3d569aa8"
-                                    alt="subsImg1">
-                            </div>
-
-                            <div
-                                class="subsdesc col-lg-8 col-md-8 d-flex flex-column align-content-between pt-lg-5 pt-md-5 pl-4 d-sm-flex flex-sm-column align-items-sm-center align-items-md-start align-items-lg-start">
-                                <h5 class="font-weight-bold text-sm-center text-md-left text-lg-left">In-depth Stories
-                                    You Don't See Elsewhere About Topics You
-                                    Want to Read!</h5>
-                                <p class="text-sm-center text-md-left text-lg-left">All Access + Weekly
-                                    Delivery.<br>Choose A Membership That's Perfect for You!</p>
-                                <a href="#"><button type="button"
-                                        class="btn btn-danger text-uppercase font-weight-bold">subscribe&nbsp;<img
-                                            class="head_img1"
-                                            src="https://g.newsweek.com/www/images/icon-arrow-right.svg"
-                                            alt=""></button>
-                                </a>
-                            </div>
+                    <h5 class="text-uppercase font-weight-bold text-danger">subscribe</h5>
+                    <div class="bg-light row ml-0 d-flex flex-md-row flex-sm-row">
+                        <div
+                            class="subsImage w-100 position-relative col-lg-4 col-md-4 col-sm-12 pb-1 pr-5 px-sm-2 d-sm-flex flex-sm-column align-items-sm-center align-items-md-start align-items-lg-start">
+                            <img class="p-4 justify-self-sm-center"
+                                src="https://d.newsweek.com/en/full/1577760/cover-april-10-2020.jpg?w=170&q=95&f=a4b41b48dc29ccde5be9091db89cdf35"
+                                alt="subsImg1">
+                            <img class="position-absolute"
+                                src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg?w=170&q=95&f=b4884b3be2e05e586232cc3f3d569aa8"
+                                alt="subsImg1">
                         </div>
+
+                        <div
+                            class="subsdesc col-lg-8 col-md-8 d-flex flex-column align-content-between pt-lg-5 pt-md-5 pl-4 d-sm-flex flex-sm-column align-items-sm-center align-items-md-start align-items-lg-start">
+                            <h5 class="font-weight-bold text-sm-center text-md-left text-lg-left">In-depth Stories
+                                You Don't See Elsewhere About Topics You
+                                Want to Read!</h5>
+                            <p class="text-sm-center text-md-left text-lg-left">All Access + Weekly
+                                Delivery.<br>Choose A Membership That's Perfect for You!</p>
+                            <button type="button"
+                                class="btn btn-danger text-uppercase font-weight-bold">subscribe&nbsp;<img
+                                    class="head_img1" src="https://g.newsweek.com/www/images/icon-arrow-right.svg"
+                                    alt=""></button>
+
+                        </div>
+                    </div>
                 </article>
 
                 <article class="col-lg-4 d-flex flex-column col-md-12">
-                    <h6 class="text-uppercase font-weight-bold text-danger">newsletter</h5>
-                        <div
-                            class="d-flex flex-lg-row flex-md-row border mt-2 flex-sm-column justify-content-sm-center">
-                            <div class="col-lg-6 col-sm-12 newsletter pl-0 pt-0 pr-0 col-md-3">
-                                <img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"
-                                    alt="newsletter">
-                            </div>
-                            <div
-                                class="col-lg-6 col-sm-12 col-md-9 px-lg-3 py-lg-5 px-md-3 py-md-5 py-sm-3 d-sm-flex flex-sm-column align-items-sm-center align-items-md-start align-items-lg-start">
-                                <h5 class="font-weight-bold text-sm-center text-md-left text-lg-left">The Starting 5
-                                </h5>
-                                <p class="text-sm-center text-md-left text-lg-left">See why nearly a quarter of a
-                                    million subscribers begin their
-                                    day with the Starting
-                                    5.
-                                </p>
-                                <a href="#" class="justify-self-sm-center"><button type="button"
-                                        class="btn btn-danger text-uppercase font-weight-bold align-self-sm-center">sign
-                                        up&nbsp;<img class="head_img1"
-                                            src="https://g.newsweek.com/www/images/icon-arrow-right.svg"
-                                            alt=""></button>
-                                </a>
-
-                            </div>
+                    <h5 class="text-uppercase font-weight-bold text-danger">newsletter</h5>
+                    <div class="d-flex flex-lg-row flex-md-row border mt-2 flex-sm-column justify-content-sm-center">
+                        <div class="col-lg-6 col-sm-12 newsletter pl-0 pt-0 pr-0 col-md-3">
+                            <img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"
+                                alt="newsletter">
                         </div>
+                        <div
+                            class="col-lg-6 col-sm-12 col-md-9 px-lg-3 py-lg-5 px-md-3 py-md-5 py-sm-3 d-sm-flex flex-sm-column align-items-sm-center align-items-md-start align-items-lg-start">
+                            <h5 class="font-weight-bold text-sm-center text-md-left text-lg-left">The Starting 5
+                            </h5>
+                            <p class="text-sm-center text-md-left text-lg-left">See why nearly a quarter of a
+                                million subscribers begin their
+                                day with the Starting
+                                5.
+                            </p>
+                            <div class="justify-self-sm-center"><button type="button"
+                                    class="btn btn-danger text-uppercase font-weight-bold align-self-sm-center">sign
+                                    up&nbsp;<img class="head_img1"
+                                        src="https://g.newsweek.com/www/images/icon-arrow-right.svg" alt=""></button>
+                            </div>
+
+                        </div>
+                    </div>
                 </article>
             </div>
         </section>
         <footer class="wrapper d-flex flex-column pb-3">
-            <section
+            <div
                 class="mx-4 my-4 pb-2 d-flex flex-lg-row flex-md-row flex-sm-column justify-content-between border-bottom align-content-lg-center align-content-md-center align-content-sm-start">
                 <div class="d-flex flex-lg-row flex-md-row flex-sm-column">
-                    <a href="https://www.newsweek.com" class="align-self-sm-start pb-sm-2"><svg version=" 1.1"
-                            id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    <a href="https://www.newsweek.com" class="align-self-sm-start pb-sm-2"><svg version="1.1"
+                            id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                             x="0px" y="0px" viewBox="0 0 395.6 60" xml:space="preserve">
                             <g>
                                 <path class="st0"
@@ -2489,8 +2512,8 @@
                     <a href="#"><i class="fab fa-tumblr icons"></i></a>
                     <a href="#"><i class="fab fa-linkedin-in icons"></i></a>
                 </div>
-            </section>
-            <section class="d-flex flex-column">
+            </div>
+            <div class="d-flex flex-column">
                 <ul class="list-group list-group-horizontal mx-4 p-1">
                     <li class=" text-capitalize text-dark font-weight-bold list-unstyled list-group-item pl-0 pr-0 pt-1
                     pb-1 border-0">
@@ -2572,7 +2595,7 @@
                             Consent preferences</a>
                     </li>
                 </ul>
-            </section>
+            </div>
 
         </footer>
 
