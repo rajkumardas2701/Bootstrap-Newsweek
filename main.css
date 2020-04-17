@@ -638,7 +638,7 @@ footer div span {
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 570px) {
   .position-absolute {
     top: 40px;
     left: 40%;
