@@ -1,63 +1,51 @@
-# Project Name
+# Newsweek using Bootstrap
 
-> One paragraph statement about the project.
+> This project is build using Bootstrap and is a replica of newsweek page. It was built using Bootstrap classes, HTML and CSS.
 
-![screenshot](./app_screenshot.png)
+# Screenshots
 
-Additional description about the project and its features.
+<strong>Desktop Version:</strong>
+<img width="960" alt="The Next Web" src="https://github.com/rajkumardas2701/Bootstrap-Newsweek/blob/feature/img/Desktop1.jpg">
+
+<strong>Tab Version:</strong><br>
+<img width="600" alt="The Next Web" src="https://github.com/rajkumardas2701/Bootstrap-Newsweek/blob/feature/img/tab1.jpg">
+
+<strong>Phone Version (small and Extra small screen):</strong><br>
+<img width="300" alt="The Next Web" src="https://github.com/rajkumardas2701/Bootstrap-Newsweek/blob/feature/img/phone1.jpg">
+
+This is the seventh project in my Microverse Curriculum in which I have used Bootstrap classes to design clone of Newsweek website.
+In this project, different browser resolution (Desktop, Tab and Phone) has been taken into consideration and managed responsiveness accordingly.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Bootstrap classes
+- CSS,
+- HTML,
+- Git, GitHub, Visual Studio Code
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/rajkumardas2701/Bootstrap-Newsweek/f91f5762ed80c647024703f39e9688b986410c98/index.html)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Feel free to pull the code on your local machine using GIT and explore the HTML and CSS files.
+You can also use demo link mentioned above to see the responsiveness in the page.
 
 ## Authors
 
-👤 **Author1**
+👤 Rajkumar Das
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@rajkumardas2701](https://github.com/rajkumardas2701)
+- Twitter: [@Rajkuma58621299](https://twitter.com/Rajkuma58621299)
+- Linkedin: [Rajkumar Das](https://www.linkedin.com/in/rajkumar-das-41308961/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/rajkumardas2701/Bootstrap-Newsweek/issues).
 
 ## Show your support
 
@@ -65,9 +53,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Thanks to Team 104 Fornax for the suggestions and feedback as and when required.
 
 ## 📝 License
 
