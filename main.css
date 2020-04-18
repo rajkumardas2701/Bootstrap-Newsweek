@@ -44,6 +44,12 @@ header a svg {
   fill: white;
 }
 
+.fa-bars {
+  color: rgb(211, 211, 211);
+  opacity: 70%;
+  font-size: 1.5em;
+}
+
 .navBtn {
   background-color: white;
   border: 0;
@@ -91,6 +97,15 @@ button {
 ul li a {
   font-size: 14px;
   color: rgb(143, 142, 142);
+}
+
+.text-danger {
+  color: red !important;
+}
+
+.subsdesc .btn,
+.news .btn {
+  background-color: red;
 }
 
 .navigation a {
@@ -583,32 +598,9 @@ footer div span {
   color: blue;
 }
 
-.fa-bars {
-  font-size: 1.5em;
-}
-
-/* Media queries for lower than large screen */
-
-@media screen and (max-width: 991px) {
-  .navigation::before {
-    display: none;
-  }
-
-  header a svg {
-    width: 15vh;
-    height: auto;
-    fill: white;
-  }
-
-  .navbar-height {
-    height: 50px;
-    align-content: center;
-  }
-}
-
 /* Media queries for medium screen */
 
-@media screen and (max-width: 991px) and (min-width: 768px) {
+@media screen and (max-width: 991px) and (min-width: 766px) {
   .spon {
     width: 320px;
     height: auto;
@@ -619,9 +611,33 @@ footer div span {
     height: 55%;
     object-fit: cover;
   }
+
+  header a svg {
+    width: 15vh;
+    height: auto;
+    fill: white;
+  }
+
+  .newsBox {
+    height: 200px;
+  }
+
+  .newsletter img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .navbar-height {
+    height: 50px;
+    align-content: center;
+  }
+
+  .navigation::before {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 765px) and (min-width: 578px) {
   .newsletter img {
     width: 100%;
     height: 150px;
@@ -636,9 +652,43 @@ footer div span {
   .spon article button {
     width: 60%;
   }
+
+  .navbar-height {
+    height: 50px;
+    align-content: center;
+  }
+
+  header a svg {
+    width: 15vh;
+    height: auto;
+    fill: white;
+  }
+
+  footer div a svg {
+    width: 80%;
+    height: 50px;
+    fill: red;
+  }
+
+  .navBtn svg {
+    display: none;
+  }
+
+  .navBtn {
+    background-color: white;
+    border: 0;
+    width: 100px;
+    height: 25px;
+    margin-left: 10px;
+    color: red;
+  }
+
+  .footList {
+    border-right: 0;
+  }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 577px) {
   .position-absolute {
     top: 40px;
     left: 40%;
@@ -651,5 +701,39 @@ footer div span {
   .location,
   .head_img1 {
     display: none;
+  }
+
+  .navbar-height {
+    height: 50px;
+    align-content: center;
+  }
+
+  header a svg {
+    width: 15vh;
+    height: auto;
+    fill: white;
+  }
+
+  footer div a svg {
+    width: 80%;
+    height: 50px;
+    fill: red;
+  }
+
+  .navBtn svg {
+    display: none;
+  }
+
+  .navBtn {
+    background-color: white;
+    border: 0;
+    width: 100px;
+    height: 25px;
+    margin-left: 10px;
+    color: red;
+  }
+
+  .footList {
+    border-right: 0;
   }
 }
