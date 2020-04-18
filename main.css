@@ -1,0 +1,739 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1300px;
+  background-color: white;
+}
+
+.navbar-height {
+  height: 90px;
+  align-content: center;
+}
+
+.bg-red {
+  background-color: #f72210;
+}
+
+.head_img {
+  width: 22px;
+  height: 22px;
+}
+
+.head_img1 {
+  width: 12px;
+  height: 12px;
+  fill: red;
+}
+
+.pad-bot {
+  padding-top: 10px;
+}
+
+.text-font {
+  font-size: 14px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+header a svg {
+  width: 40vh;
+  height: auto;
+  fill: white;
+}
+
+.fa-bars {
+  color: rgb(211, 211, 211);
+  opacity: 70%;
+  font-size: 1.5em;
+}
+
+.navBtn {
+  background-color: white;
+  border: 0;
+  width: 120px;
+  height: 25px;
+  margin-left: 10px;
+  color: red;
+}
+
+footer div a svg {
+  width: 100%;
+  height: 50px;
+  fill: red;
+}
+
+.navBtn svg {
+  width: 100%;
+  height: 15px;
+  fill: red;
+  align-self: center;
+}
+
+.belowHead {
+  position: relative;
+  margin-top: 90px;
+  border-bottom: 1px solid rgb(219, 217, 217);
+}
+
+.input-group-append {
+  position: absolute;
+  width: 6%;
+  right: 7%;
+  top: 0;
+}
+
+button {
+  display: flex;
+  margin: 10px 0;
+}
+
+.input-group-append button {
+  width: 20%;
+}
+
+ul li a {
+  font-size: 14px;
+  color: rgb(143, 142, 142);
+}
+
+.text-danger {
+  color: red !important;
+}
+
+.subsdesc .btn,
+.news .btn {
+  background-color: red;
+}
+
+.navigation a {
+  color: black;
+  font-size: 1.1em;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.belowHead div a {
+  font-size: 1.1em;
+}
+
+.navigation {
+  width: 86%;
+  height: 40px;
+}
+
+.navigation::before {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: red;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+  width: 6%;
+}
+
+ul li a:hover {
+  color: rgb(75, 74, 74);
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.form-control {
+  font-size: 1em;
+}
+
+.head_img2 {
+  padding: 0;
+  width: 20px;
+  height: auto;
+  border: 0;
+}
+
+.belowHead input {
+  font: 1em;
+  padding-right: 0;
+}
+
+.belowHead button {
+  border: 0;
+  background-color: white;
+}
+
+.container-fluid {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.featuredImg {
+  width: 100%;
+  height: 100%;
+}
+
+.card .imgTitle {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: red;
+  background-color: #f7f6f2;
+}
+
+.card .heroTitle {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2px 10px;
+  font-weight: 400;
+  color: black;
+  background-color: #c2d4d7;
+  font-size: small;
+}
+
+main section h6,
+main aside h6 {
+  color: gray;
+}
+
+.heroTile {
+  color: gray;
+  font-weight: 600;
+}
+
+.PandemicHero article {
+  margin: 10px 5px 0 0;
+  padding-left: 0;
+}
+
+.aboutAuthor {
+  margin: 0 10px;
+  line-height: 0.9em;
+}
+
+.aboutAuthor a h6 {
+  color: black;
+  font-size: 0.95em;
+}
+
+.deb_auth a h6 {
+  color: black;
+  vertical-align: middle;
+  margin: 10px 0 10px 10px;
+}
+
+.article a h6 {
+  padding-top: 20px;
+}
+
+.aboutAuthor a:hover,
+.aboutAuthor a h6:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.aboutAuthor p {
+  font-size: 0.8em;
+  color: #515250;
+  line-height: normal;
+}
+
+.debate-box1 p {
+  margin-top: 10px;
+  font-size: 0.9em;
+  letter-spacing: -1px;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.bgFeature p {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.AbtFeat p {
+  margin-bottom: 0;
+}
+
+.cnt article .aboutAuthor p {
+  font-size: 1em;
+  color: #515250;
+}
+
+.debate {
+  margin-top: 20px;
+}
+
+.deb_auth {
+  padding-bottom: 15px;
+  border-bottom: 4px double rgb(206, 207, 207);
+}
+
+.features img {
+  width: 100%;
+}
+
+.newsletter img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.deb_auth a img {
+  width: 97px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.aside {
+  padding-right: 10px;
+  position: relative;
+}
+
+.debate-box1 {
+  border-top: 4px solid red;
+  position: relative;
+}
+
+.debate-box1:last-child {
+  border-top: 4px solid blue;
+  position: relative;
+}
+
+.opinion section {
+  border-bottom: 1px solid rgb(206, 207, 207);
+  margin-top: 10px;
+}
+
+.opinion section:last-child {
+  border-bottom: 0;
+}
+
+.opinion section:first-child {
+  margin-top: 0;
+}
+
+.debate-box1 .deb_img1 {
+  width: 60px;
+  height: 60px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.vs {
+  color: white;
+  border: 2px solid black;
+  width: 40px;
+  height: 40px;
+  padding-top: 5px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.latestNews {
+  margin: 20px 0;
+}
+
+.latestNews .opinion {
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(206, 207, 207);
+}
+
+.latestNews .opinion:last-child {
+  border-bottom: 0;
+}
+
+.card .sponTitle {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: rgba(72, 126, 252, 0.917);
+  background-color: #f7f6f2;
+}
+
+.sponHead {
+  color: black;
+  font-size: 1.2em;
+}
+
+article .border {
+  border-color: rgb(206, 207, 207);
+}
+
+.spon {
+  margin-bottom: 30px;
+}
+
+.newsIcon {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  background-color: red;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.cnt {
+  padding-top: 10px;
+  border-top: 1px solid rgb(206, 207, 207);
+}
+
+.features {
+  position: relative;
+}
+
+.features .imgTitle {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: red;
+  background-color: #f7f6f2;
+  opacity: 80%;
+}
+
+.imgTitle1 {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px 10px;
+}
+
+.bgFeature {
+  background-color: #f4f5f6;
+  color: black;
+  height: 40px;
+  align-items: center;
+  font-size: 1em;
+}
+
+.bgFeature:hover {
+  background-color: rgb(218, 214, 214);
+  text-decoration: none;
+  color: black;
+}
+
+.row {
+  margin: 10px 20px;
+  border-top: 1px solid rgb(206, 207, 207);
+  padding: 10px 0;
+}
+
+.us .row {
+  margin: 10px 0;
+  border-top: 0;
+  border-bottom: 1px solid rgb(206, 207, 207);
+}
+
+.sports .row {
+  margin: 10px 0;
+  border-top: 0;
+}
+
+.subs .row {
+  border-top: 0;
+}
+
+.magazineSection .row:last-child {
+  border-top: 0;
+}
+
+.featureClip {
+  height: 70%;
+  object-fit: cover;
+}
+
+.magazineSection .row:last-child .featureClip {
+  height: 70%;
+  object-fit: cover;
+  border-top: 0;
+  margin-top: 0;
+}
+
+.editorPick .row:last-child {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+  border-bottom: 1px solid rgb(206, 207, 207);
+}
+
+.us h5 {
+  color: red;
+}
+
+.sports h5 {
+  color: red;
+}
+
+.magazineSection div h5 {
+  letter-spacing: -1;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+.AbtFeat {
+  margin-top: 10px;
+}
+
+footer div span {
+  font-size: 1em;
+  font-weight: 500;
+  color: #666;
+  margin-left: 20px;
+}
+
+.AbtFeat span {
+  margin-left: 10px;
+  color: red;
+}
+
+.magDesc {
+  line-height: 20px !important;
+  font-size: 20px;
+  letter-spacing: -1;
+}
+
+.lastImg {
+  height: 250px;
+  object-fit: cover;
+}
+
+.editorPick {
+  margin-top: 30px;
+}
+
+.lastFont {
+  font-size: 1.2em;
+}
+
+.us {
+  padding: 10px 20px;
+}
+
+.us article {
+  padding-left: 0;
+}
+
+.us article a img {
+  width: 100%;
+  height: auto;
+}
+
+.sports article a img {
+  width: 100%;
+  height: auto;
+}
+
+.us article div article a img {
+  width: auto;
+  height: auto;
+}
+
+.sports {
+  padding: 10px 20px;
+}
+
+.sports article {
+  padding-left: 0;
+}
+
+.sports article div article a img {
+  width: auto;
+  height: auto;
+}
+
+.uslatest {
+  border-bottom: 1px solid rgb(206, 207, 207);
+  padding: 10px 0;
+}
+
+.uslatest:first-child {
+  padding-top: 0;
+}
+
+.uslatest:last-child {
+  border-bottom: 0;
+}
+
+.subs .row article {
+  padding: 0;
+}
+
+.position-absolute {
+  top: 40px;
+  left: 100px;
+}
+
+.icons {
+  font-size: 25px;
+  color: rgb(116, 115, 115);
+  margin-right: 10px;
+}
+
+.icons:hover {
+  color: blue;
+}
+
+/* Media queries for medium screen */
+
+@media screen and (max-width: 991px) and (min-width: 766px) {
+  .spon {
+    width: 320px;
+    height: auto;
+    align-self: center;
+  }
+
+  .featureClip {
+    height: 55%;
+    object-fit: cover;
+  }
+
+  header a svg {
+    width: 15vh;
+    height: auto;
+    fill: white;
+  }
+
+  .newsBox {
+    height: 200px;
+  }
+
+  .newsletter img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .navbar-height {
+    height: 50px;
+    align-content: center;
+  }
+
+  .navigation::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 765px) and (min-width: 578px) {
+  .newsletter img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .position-absolute {
+    top: 40px;
+    left: 40%;
+  }
+
+  .spon article button {
+    width: 60%;
+  }
+
+  .navbar-height {
+    height: 50px;
+    align-content: center;
+  }
+
+  header a svg {
+    width: 15vh;
+    height: auto;
+    fill: white;
+  }
+
+  footer div a svg {
+    width: 80%;
+    height: 50px;
+    fill: red;
+  }
+
+  .navBtn svg {
+    display: none;
+  }
+
+  .navBtn {
+    background-color: white;
+    border: 0;
+    width: 100px;
+    height: 25px;
+    margin-left: 10px;
+    color: red;
+  }
+
+  .footList {
+    border-right: 0;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .position-absolute {
+    top: 40px;
+    left: 40%;
+  }
+
+  .spon article button {
+    width: 60%;
+  }
+
+  .location,
+  .head_img1 {
+    display: none;
+  }
+
+  .navbar-height {
+    height: 50px;
+    align-content: center;
+  }
+
+  header a svg {
+    width: 15vh;
+    height: auto;
+    fill: white;
+  }
+
+  footer div a svg {
+    width: 80%;
+    height: 50px;
+    fill: red;
+  }
+
+  .navBtn svg {
+    display: none;
+  }
+
+  .navBtn {
+    background-color: white;
+    border: 0;
+    width: 100px;
+    height: 25px;
+    margin-left: 10px;
+    color: red;
+  }
+
+  .footList {
+    border-right: 0;
+  }
+}
