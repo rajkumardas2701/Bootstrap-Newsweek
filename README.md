@@ -5,13 +5,13 @@
 # Screenshots
 
 <strong>Desktop Version:</strong>
-<img width="960" alt="The Next Web" src="https://github.com/rajkumardas2701/Bootstrap-Newsweek/blob/feature/img/Desktop1.jpg">
+<img width="960" alt="The Next Web" src="https://github.com/rajkumardas2701/Bootstrap-Newsweek/blob/master/img/Desktop1.jpg">
 
 <strong>Tab Version:</strong><br>
-<img width="600" alt="The Next Web" src="https://github.com/rajkumardas2701/Bootstrap-Newsweek/blob/feature/img/tab1.jpg">
+<img width="600" alt="The Next Web" src="https://github.com/rajkumardas2701/Bootstrap-Newsweek/blob/master/img/tab1.jpg">
 
 <strong>Phone Version (small and Extra small screen):</strong><br>
-<img width="300" alt="The Next Web" src="https://github.com/rajkumardas2701/Bootstrap-Newsweek/blob/feature/img/phone1.jpg">
+<img width="300" alt="The Next Web" src="https://github.com/rajkumardas2701/Bootstrap-Newsweek/blob/master/img/phone1.jpg">
 
 This is the seventh project in my Microverse Curriculum in which I have used Bootstrap classes to design clone of Newsweek website.
 In this project, different browser resolution (Desktop, Tab and Phone) has been taken into consideration and managed responsiveness accordingly.
