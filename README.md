@@ -25,7 +25,7 @@ In this project, different browser resolution (Desktop, Tab and Phone) has been 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/rajkumardas2701/Bootstrap-Newsweek/f91f5762ed80c647024703f39e9688b986410c98/index.html)
+[Live Demo Link](https://rawcdn.githack.com/rajkumardas2701/Bootstrap-Newsweek/c522eabe289ea261c674b8f7cb9b23606e796ae3/index.html)
 
 
 ## Getting Started
